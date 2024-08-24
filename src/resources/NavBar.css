@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+    justify-content: space-between;
+    font-family: Lato, sans-serif;
+}
+
+.logo {
+    max-width: 5%;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav ul li {
+    padding: 0 15px;
+    max-height: 100%;
+}
+
+.nav ul li .icons {
+    padding: 0 10px 0 0;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.group6 {
+    display: flex;
+}
+
+.sign-up-menu{
+    display: flex;
+    text-decoration: none;
+}

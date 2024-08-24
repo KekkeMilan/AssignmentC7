@@ -1,0 +1,12 @@
+body {
+    background-color: #cccccc;
+}
+
+.WelcomeText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    font-family: Lato, sans-serif;
+    display: flex;
+    justify-content: center;
+}
